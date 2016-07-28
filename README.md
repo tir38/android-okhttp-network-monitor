@@ -1,3 +1,6 @@
+Monitor the state of a network with Retrofit/OkHttp and RxJava
+---
+
 
 How can we monitor the state of our network connection with Retrofit? How can we do it seamlessly and in a single place? Let's find out!
 
