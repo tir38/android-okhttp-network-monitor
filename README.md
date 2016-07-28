@@ -1,4 +1,4 @@
-Monitor the state of a network with Retrofit/OkHttp and RxJava
+llMonitor the state of a network with Retrofit/OkHttp and RxJava
 ---
 
 
@@ -148,6 +148,3 @@ In this example, I've decided to use an *Application* Interceptor. I'll leave it
 With an *Application* Interceptor, you don't need to worry about network checks on every redirect and intermediate response. However, you'll perform an unnecessary network check even if OkHttp retrieves your request from cache, which partially negates the benefit of the cache.
 
 With an *Network* Interceptor, you'll have the opposite: You won't make network checks when OkHttp decides to supply a cached response. However, you'll have the network check firing for redirects and retries, which might be overkill.
-
-Check out [the working example](https://github.com/tir38/android-okhttp-network-monitor) and happy coding!
-
