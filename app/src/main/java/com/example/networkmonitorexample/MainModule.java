@@ -55,7 +55,6 @@ public final class MainModule {
                 .create(GithubWebService.class);
     }
 
-
     @Provides
     @Singleton
     NetworkMonitor provideNetworkMonitor(Context context) {
